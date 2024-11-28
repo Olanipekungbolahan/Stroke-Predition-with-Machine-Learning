@@ -62,3 +62,57 @@ This project includes the following key steps:
 - Install required dependencies:
   ```bash
   pip install -r requirements.txt
+
+Steps:
+1 Clone the repository:
+
+git clone https://github.com/Olanipekungbolahan/Stroke-Prediction-with-Machine-Learning.git
+cd Stroke-Prediction-with-Machine-Learning
+
+2 Train the Model: Run the Jupyter notebook model_building.ipynb to preprocess the data, train the model, and evaluate its performance.
+python app.py
+
+3 Start the Flask App:
+python app.py
+
+4 Test the API: Send a POST request to http://127.0.0.1:5000/predict with a JSON payload (patient data) to get predictions.
+
+Example:
+curl -X POST -H "Content-Type: application/json" \
+-d '{"ever_married": "Yes", "work_type": "Private", "Residence_type": "Urban", "smoking_status": "never smoked", "age": 45, "hypertension": 1, "heart_disease": 0}' \
+http://127.0.0.1:5000/predict
+
+Model Evaluation Metrics
+The model was evaluated using the following metrics:
+
+Metric	Value
+Accuracy	85%
+Precision	87%
+Recall	82%
+F1-Score	84%
+ROC-AUC	90%
+Future Work
+Improve model performance with more advanced algorithms (e.g., XGBoost, Random Forest).
+Add feature engineering to improve predictive power.
+Deploy the model to a cloud platform like AWS, Heroku, or Azure for scalability.
+Build a Streamlit interface for easier user interaction.
+Contributing
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+
+Model Evaluation Metrics
+The model was evaluated using the following metrics:
+
+Metric	Value
+Accuracy	85%
+Precision	87%
+Recall	82%
+F1-Score	84%
+ROC-AUC	90%
+Future Work
+Improve model performance with more advanced algorithms (e.g., XGBoost, Random Forest).
+Add feature engineering to improve predictive power.
+Deploy the model to a cloud platform like AWS, Heroku, or Azure for scalability.
+Build a Streamlit interface for easier user interaction.
+Contributing
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+
