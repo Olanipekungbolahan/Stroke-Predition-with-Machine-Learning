@@ -63,7 +63,7 @@ This project includes the following key steps:
   ```bash
   pip install -r requirements.txt
 
-Steps:
+###Steps:
 1 Clone the repository:
 
 git clone https://github.com/Olanipekungbolahan/Stroke-Prediction-with-Machine-Learning.git
@@ -82,7 +82,7 @@ curl -X POST -H "Content-Type: application/json" \
 -d '{"ever_married": "Yes", "work_type": "Private", "Residence_type": "Urban", "smoking_status": "never smoked", "age": 45, "hypertension": 1, "heart_disease": 0}' \
 http://127.0.0.1:5000/predict
 
-Model Evaluation Metrics
+###Model Evaluation Metrics
 The model was evaluated using the following metrics:
 
 Metric	Value
@@ -99,7 +99,7 @@ Build a Streamlit interface for easier user interaction.
 Contributing
 Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
-Model Evaluation Metrics
+###Model Evaluation Metrics
 The model was evaluated using the following metrics:
 
 Metric	Value
