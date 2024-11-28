@@ -1,4 +1,4 @@
-```
+
 # **Stroke Prediction with Machine Learning**
 
 This project demonstrates how to build, evaluate, and deploy a machine learning model for predicting stroke risks based on patient data.
@@ -116,4 +116,4 @@ Build a Streamlit interface for easier user interaction.
 Contributing
 Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
-```
+
